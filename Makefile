@@ -45,5 +45,5 @@ install_app:
 	npm install
 
 expose_ip_address:
-	kubectl port-forward svc/$(SERVICE) -n $(NAMESPACE) $(LOCALPORT):$(REMOTEPORT)
+	kubectl port-forward svc/$(SERVICE) -n $(NAMESPACE) $(LOCALPORT):$(REMOTEPORT) >> /dev/null 2>&1 &
 
