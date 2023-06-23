@@ -6,8 +6,8 @@ metadata:
     group: {{ .Values.app.group }}
 spec:
   type: {{ .Values.app.service.type }}
-  # selector:             
-  #   app: {{ .Values.app.name }}
+  selector:             
+    app: {{ .Values.app.name }}
   ports:
     - port: {{ .Values.app.service.port }}       
       targetPort: {{ .Values.app.container.port }}  
