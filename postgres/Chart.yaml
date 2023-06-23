@@ -1,0 +1,14 @@
+apiVersion: v2
+name: postgres
+description: A Helm chart for PostreSQL Database
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+keywords:
+  - postgres
+  - database
+home: https://github.com/godfred-nsabo/k8s-helm-helmfile/tree/master/helm
+maintainers:
+  - name: Godfred Nsabo
+    email: godfred.nsabo@amalitech.com
+    url: https://github.com/godfred-nsabo/

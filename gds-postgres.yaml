@@ -1,0 +1,9 @@
+postgres:
+  config:
+    data: 
+      - key: POSTGRES_DB
+        value: gdsdb
+      - key: POSTGRES_USER
+        value: gdsus
+      - key: POSTGRES_PASSWORD
+        value: gdsaccount

@@ -1,0 +1,11 @@
+app:
+  name: nodeapp
+  group: app
+  replicaCount: 3
+  container:
+    image: gnsabo/nodeapp
+    port: 5000
+
+  service:
+    type: LoadBalancer
+    port: 5000
